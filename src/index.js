@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import InforBar from './components/infoBar/InfoBar.js'
+import NavBar from './components/navBar/NavBar';
+import { BrowserRouter } from "react-router-dom";
+import Hero from './components/Content/hero/Hero.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <InforBar></InforBar>
+      <NavBar></NavBar>
+      <Hero></Hero>
+      <App />
+    </BrowserRouter>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
