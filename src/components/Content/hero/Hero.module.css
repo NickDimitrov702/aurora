@@ -1,6 +1,7 @@
 
 
 .heroWrapper {
+    height: 700px;
     margin-top: 39px;
     width: 100%;
     margin: auto;
@@ -10,11 +11,10 @@
 }
 /* Center the text in the hero container please */
 .heroContentWrapper {
-    width: auto;
-    margin-left: 200px;
-    margin-right: 200px;
-    position: absolute;
-    bottom: 200px;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    bottom: 490px;
     text-align: center;
     font-size: 34px;
     color: rgba(213, 171, 78, 1);

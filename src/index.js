@@ -7,6 +7,7 @@ import InforBar from './components/infoBar/InfoBar.js'
 import NavBar from './components/navBar/NavBar';
 import { BrowserRouter } from "react-router-dom";
 import Hero from './components/Content/hero/Hero.js'
+import ProductPage from './components/Content/productPage/ProductPage.js'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
       <InforBar></InforBar>
       <NavBar></NavBar>
       <Hero></Hero>
+      <ProductPage></ProductPage>
       <App />
     </BrowserRouter>
 
