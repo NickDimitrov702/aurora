@@ -1,0 +1,23 @@
+
+.contactWrapper  {
+    width: 1400px;
+    height: 700px;
+    margin: auto;
+}
+
+.image {
+    position: relative;
+    float: right;
+    width: 300px;
+    margin: auto;
+}
+
+.liner{
+    position: relative;
+    border-top: 2px solid black;
+    width: 90%;
+    top: 80px;
+   
+   /* eight: 2px; h */
+    /* padding: 1px; */
+}

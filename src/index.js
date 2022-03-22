@@ -5,10 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import InforBar from './components/infoBar/InfoBar.js'
 import NavBar from './components/navBar/NavBar';
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, ScrollRestoration, RestoredScroll } from "react-router-dom";
 import Hero from './components/Content/hero/Hero.js'
 import ProductPage from './components/Content/productPage/ProductPage.js'
 import About from './components/Content/links/about/About.js'
+import Contacts from './components/Content/links/contacts/Contacts.js'
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +20,7 @@ ReactDOM.render(
       <Hero></Hero>
       <ProductPage></ProductPage>
       <About></About>
+      <Contacts></Contacts>
       <App />
     </BrowserRouter>
 

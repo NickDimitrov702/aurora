@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
 import { Links } from 'react-router-dom'
+import { useRef } from 'react'
 import style from './NavBar.module.css'
 import Logo from '../../Resources/Aurora-botique.jpg'
 
 function NavBar() {
+    
 
     return (
         <nav className={style.NavBarWrapper}>

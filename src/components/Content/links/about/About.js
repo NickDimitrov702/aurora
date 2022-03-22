@@ -1,10 +1,11 @@
 import style from './About.module.css'
 import Logot from '../../../../Resources/Aurora-botique.jpg'
+import { useEffect } from 'react';
 
 function About() {
 
     return (
-        <div className={style.aboutWrapper}>
+        <div href='/about' className={style.aboutWrapper}>
             <header className={style.header}>
                 <div className={style.liner}></div>
                 <div className={style.LogoWrapper}>
