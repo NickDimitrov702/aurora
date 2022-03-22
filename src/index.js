@@ -8,6 +8,7 @@ import NavBar from './components/navBar/NavBar';
 import { BrowserRouter } from "react-router-dom";
 import Hero from './components/Content/hero/Hero.js'
 import ProductPage from './components/Content/productPage/ProductPage.js'
+import About from './components/Content/links/about/About.js'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
       <NavBar></NavBar>
       <Hero></Hero>
       <ProductPage></ProductPage>
+      <About></About>
       <App />
     </BrowserRouter>
 
