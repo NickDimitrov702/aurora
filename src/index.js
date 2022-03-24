@@ -14,15 +14,8 @@ import Contacts from './components/Content/links/contacts/Contacts.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <InforBar></InforBar>
-      <NavBar></NavBar>
-      <Hero></Hero>
-      <ProductPage></ProductPage>
-      <About></About>
-      <Contacts></Contacts>
+ 
       <App />
-    </BrowserRouter>
 
   </React.StrictMode>,
   document.getElementById('root')
