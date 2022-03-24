@@ -42,7 +42,7 @@
 
 .listItemWrapper li a:hover {
     -webkit-text-stroke: 0.5px black;
-    transition: 100ms ease-in-out;
+    transition: 400ms ease-in-out;
     text-shadow: 8px 7px 3px rgba(138, 150, 150, 1);
 }
 
