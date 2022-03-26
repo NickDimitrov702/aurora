@@ -1,7 +1,13 @@
 import style from './Contacts.module.css'
 import Logot from '../../../../Resources/Aurora-botique.jpg'
 import Location from '../../../../Resources/Aurora directions.JPG'
+// AIzaSyA4thCvDnu2tAAic7UypXErl1P07G26cP0
+import MapContainer from '../../../GoogleMaps/GoogleMaps.js'
+
 function Contacts() {
+
+
+
 
     return (
         <div className={style.contactWrapper}>
@@ -14,13 +20,14 @@ function Contacts() {
             <main className={style.mainContentWrapper}>
                 <div className={style.contactsWrapper}>
                     <h1>You can find us on</h1>
-                    <p>Varna, Bla bla bla bal No 12</p>
-                    <p>Mobile:08992312</p>
+                    <p>Улица Доктро Пискюлиев 50</p>
+                    <p>Телефон: 087 791 0707</p>
                     <p>Email:Bla@blabla</p>
                     <p>Facebook: bladibladblida</p>
                 </div>
-                    <img className={style.imageWrapper} src={Location}></img>
+                <MapContainer></MapContainer>
 
+                {/* <img className={style.imageWrapper} src={Location}></img> */}
 
             </main>
         </div>

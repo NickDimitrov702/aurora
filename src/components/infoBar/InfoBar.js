@@ -8,7 +8,7 @@ function InfoBar() {
                 <ul className={style.infoBarInfo}>
                     <li>+359 08923124</li>
                     <li>botique@botique.com</li>
-                    <li>Working time: Fr-Mon 08:00 - 18:00</li>
+                    <li>Working time: Fr-Mon 10:00 - 18:00</li>
                 </ul>
             </div>
         </div>

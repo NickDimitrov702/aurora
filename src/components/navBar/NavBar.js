@@ -18,7 +18,7 @@ function NavBar() {
                 <li><Link to='/flowers'>Flowers</Link></li>
                 <li><Link to='/about'>About</Link></li>
                 <li><Link to='/products'>Products</Link></li>
-                <li><Link to='contacts'>Contacts</Link></li>
+                <li><Link to='/contacts'>Contacts</Link></li>
             </ul>
         </nav>
     )
