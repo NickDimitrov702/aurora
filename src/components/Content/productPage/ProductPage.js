@@ -3,6 +3,7 @@ import style from './ProductPage.module.css'
 import firstImg from '../../../Resources/pexels-teona-swift-6913841.jpg'
 import secondImg from '../../../Resources/pexels-ekrulila-2320621.jpg'
 import thirdsImg from '../../../Resources/pexels-engin-akyurt-1458867.jpg'
+
 function ProductPage() {
 
     return (
