@@ -5,7 +5,8 @@ const MapContainer = () => {
 
     const mapStyles = {
         height: "400px",
-        width: "500px",
+        width: "400px",
+        margin:'5px',
         borderRadius: '15px'
     };
 
