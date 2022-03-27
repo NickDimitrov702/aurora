@@ -2,7 +2,7 @@
   "name": "aurora",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NickDimitrov702.github.io/aurora",
+  "homepage": "https://nickdimitrov702.github.io/aurora/",
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.28",
     "@react-google-maps/api": "^2.7.0",
