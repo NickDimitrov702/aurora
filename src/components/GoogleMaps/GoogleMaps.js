@@ -5,9 +5,10 @@ const MapContainer = () => {
 
     const mapStyles = {
         height: "400px",
-        width: "400px",
+        width: "100%",
         margin:'5px',
-        borderRadius: '15px'
+        borderRadius: '15px',
+        textShadow: "2px 2px 24px rgba(0, 0, 0, 0.966);"
     };
 
     const defaultCenter = {
@@ -23,7 +24,7 @@ const MapContainer = () => {
             }
         }
     ]
-    // ala bala
+ 
     return (
         <LoadScript
             googleMapsApiKey='AIzaSyA4thCvDnu2tAAic7UypXErl1P07G26cP0'>
