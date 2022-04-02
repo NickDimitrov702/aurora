@@ -8,7 +8,7 @@ const MapContainer = () => {
         width: "100%",
         margin:'5px',
         borderRadius: '15px',
-        textShadow: "2px 2px 24px rgba(0, 0, 0, 0.966);"
+       
     };
 
     const defaultCenter = {

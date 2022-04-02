@@ -13,17 +13,17 @@ function ProductPage() {
             <div className={style.linkButtonsWrapper}>
                 <ul className={style.listItemsWrapper}>
                     <li>
-                        <Link><FontAwesomeIcon className={style.iconStyle} icon={faFan} /></Link>
+                        <a><FontAwesomeIcon className={style.iconStyle} icon={faFan} /></a>
                         <p>Flowers</p>
                         <p>Flowers for every day</p>
                     </li>
                     <li>
-                        <Link><FontAwesomeIcon className={style.iconStyle} icon={faTruck} /></Link>
+                        <a><FontAwesomeIcon className={style.iconStyle} icon={faTruck} /></a>
                         <p>Delivery</p>
                         <p>Flowers to deliver every day</p>
                     </li>
                     <li>
-                        <Link><FontAwesomeIcon className={style.iconStyle} icon={faGift} /></Link>
+                        <a><FontAwesomeIcon className={style.iconStyle} icon={faGift} /></a>
                         <p>Gifts</p>
                         <p>Gifts for every day</p>
                     </li>

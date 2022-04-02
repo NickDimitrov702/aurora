@@ -4,7 +4,8 @@ import { useRef } from 'react'
 import style from './NavBar.module.css'
 import Logo from '../../Resources/Aurora-botique.jpg'
 import ScrollIntoView from 'react-scroll-into-view'
-import About from '../../components/Content/links/about/About.js'
+// Scroll in to view is imported from a react lib. 
+// The component that needs to be viewed has to have id, the id is used in the selecorts, similar as CSS selecor for ID
 
 function NavBar() {
 
