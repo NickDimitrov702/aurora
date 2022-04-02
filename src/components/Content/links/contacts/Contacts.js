@@ -10,7 +10,7 @@ function Contacts() {
 
 
     return (
-        <div className={style.contactWrapper}>
+        <div id='contacts' className={style.contactWrapper}>
             <header className={style.header}>
                 <div className={style.liner}></div>
                 <div className={style.LogoWrapper}>

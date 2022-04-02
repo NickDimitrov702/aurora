@@ -3,25 +3,27 @@ import style from './ProductPage.module.css'
 import firstImg from '../../../Resources/pexels-teona-swift-6913841.jpg'
 import secondImg from '../../../Resources/pexels-ekrulila-2320621.jpg'
 import thirdsImg from '../../../Resources/pexels-engin-akyurt-1458867.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTruck,faGift,faFan } from '@fortawesome/free-solid-svg-icons'
 
 function ProductPage() {
 
     return (
-        <div className={style.productPageWrapper} >
+        <div id='products' className={style.productPageWrapper} >
             <div className={style.linkButtonsWrapper}>
                 <ul className={style.listItemsWrapper}>
                     <li>
-                        <Link>ICON</Link>
+                        <Link><FontAwesomeIcon className={style.iconStyle} icon={faFan} /></Link>
                         <p>Flowers</p>
                         <p>Flowers for every day</p>
                     </li>
                     <li>
-                        <Link>ICON</Link>
+                        <Link><FontAwesomeIcon className={style.iconStyle} icon={faTruck} /></Link>
                         <p>Delivery</p>
                         <p>Flowers to deliver every day</p>
                     </li>
                     <li>
-                        <Link>ICON</Link>
+                        <Link><FontAwesomeIcon className={style.iconStyle} icon={faGift} /></Link>
                         <p>Gifts</p>
                         <p>Gifts for every day</p>
                     </li>

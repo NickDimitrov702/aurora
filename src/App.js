@@ -8,6 +8,7 @@ import Hero from './components/Content/hero/Hero.js'
 import ProductPage from './components/Content/productPage/ProductPage.js'
 import About from './components/Content/links/about/About.js'
 import Contacts from './components/Content/links/contacts/Contacts.js'
+// https://nickdimitrov702.github.io/aurora/
 
 function App() {
   return (

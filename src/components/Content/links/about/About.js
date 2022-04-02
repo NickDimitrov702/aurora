@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 function About() {
 
     return (
-        <div href='/about' className={style.aboutWrapper}>
+        <div href='/about' id='about' className={style.aboutWrapper}>
             <header className={style.header}>
                 <div className={style.liner}></div>
                 <div className={style.LogoWrapper}>
