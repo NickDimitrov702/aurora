@@ -20,7 +20,7 @@ function Contacts() {
             <main className={style.mainContentWrapper}>
                 <div className={style.contactsWrapper}>
                     <h1>You can find us on</h1>
-                    <p>Улица Доктро Пискюлиев 50</p>
+                    <p>Улица Доктор Пискюлиев 50</p>
                     <p>Телефон: 087 791 0707</p>
                     <p>Email:Bla@blabla</p>
                     <p>Facebook: bladibladblida</p>

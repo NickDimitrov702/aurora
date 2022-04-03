@@ -1,5 +1,4 @@
-
-.contactWrapper  {
+.contactWrapper {
     max-width: 1400px;
     height: 900px;
     margin: auto;
@@ -15,20 +14,20 @@
     margin: auto;
 }
 
-.liner{
+.liner {
     position: relative;
     border-top: 2px solid black;
     width: 90%;
     top: 80px;
-   
-   /* eight: 2px; h */
+
+    /* eight: 2px; h */
     /* padding: 1px; */
 }
 
 
 .mainContentWrapper {
     display: flex;
-   width: 1000px;
+    width: 1000px;
     margin: auto;
     max-height: 900px;
     margin-top: 120px;
@@ -60,5 +59,25 @@
     border-radius: 25px;
     margin-right: 10px;
     flex-basis: 1;
-    box-shadow: 12px 12px 24px 10px rgba(0,0,0,0.37);
+    box-shadow: 12px 12px 24px 10px rgba(0, 0, 0, 0.37);
+}
+
+
+@media (max-width: 1100px) {
+    .mainContentWrapper {
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+
+    .contactsWrapper {
+        display: flex;
+        max-width: 100%;
+        margin: auto;
+        line-height: 10.5px;
+        font-size: 20px;
+        align-items: center;
+    }
 }
