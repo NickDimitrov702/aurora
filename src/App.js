@@ -9,6 +9,8 @@ import ProductPage from './components/Content/productPage/ProductPage.js'
 import About from './components/Content/links/about/About.js'
 import Contacts from './components/Content/links/contacts/Contacts.js'
 // https://nickdimitrov702.github.io/aurora/
+// When the page reloads onec one of the links is pushed, the broswer responds with page not found, need to fix that.
+// I can fix it by removing the "Link" in NavBar, since ther is no component to reffer to, and Im using scrowwintoview instead. 
 
 function App() {
   return (
