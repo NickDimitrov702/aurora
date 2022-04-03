@@ -5,7 +5,7 @@
     max-width: 1200px;
     margin: auto;
     align-items: center;
-   
+
 }
 
 .linkButtonsWrapper {
@@ -15,18 +15,16 @@
     align-items: center;
     max-height: 200px;
     flex-grow: 1;
-    
+
 }
 
 .listItemsWrapper {
     display: flex;
     max-width: 100%;
     margin: auto;
-    /* position: relative; */
     align-items: center;
     padding: 0px;
-    
-  
+
 }
 
 .listItemsWrapper li {
@@ -36,7 +34,7 @@
     align-items: center;
     padding: 10px 10px 10px 10px;
     margin: 10px 100px 10px 100px;
-
+    transition: 200ms ease-in-out;
 }
 
 
@@ -83,9 +81,10 @@
     padding: 15px 10px 15px 10px;
     border-radius: 26px;
     background-color: rgba(248, 239, 239, 0.3);
-    box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.37);
+    box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.37);
     transition: 1s;
 }
+
 /* Make it smoth transition when mouse is not on top of the element */
 .imageContainer:hover {
     transition: 200ms ease-in-out;
@@ -106,7 +105,7 @@
     margin: auto;
 }
 
-.imageContainer:nth-child(2){
+.imageContainer:nth-child(2) {
     margin-left: 60px;
     margin-right: 60px;
 }
@@ -119,6 +118,20 @@
         max-width: 1000px;
         height: 100%;
         margin: auto;
+    }
+
+    .linkButtonsWrapper {
+        max-width: 100%;
+    }
+
+
+    .listItemsWrapper li {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 60px 10px 60px;
     }
 
     .productsTemplateWrapper {
@@ -147,7 +160,7 @@
         height: 250px;
     }
 
-    .imageContainer:nth-child(2){
+    .imageContainer:nth-child(2) {
         margin-left: 15px;
         margin-right: 15px;
     }
