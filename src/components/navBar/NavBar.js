@@ -17,17 +17,23 @@ function NavBar() {
                 <img className={style.image} src={Logo}></img>
             </div>
             <ul className={style.listItemWrapper}>
-                <li><Link to='/gifts'>Gifts</Link></li>
-                <li><Link to='/flowers'>Flowers</Link></li>
-                <ScrollIntoView selector='#about'>
-                    <li><Link to='/about'>About</Link></li>
-                </ScrollIntoView >
-                <ScrollIntoView selector='#products'>
-                    <li><Link to='/products'>Products</Link></li>
-                </ScrollIntoView>
-                <ScrollIntoView selector='#contacts'>
-                    <li><Link to='/contacts'>Contacts</Link></li>
-                </ScrollIntoView>
+                <li><Link className={style.linkItems} to='/gifts'>Gifts</Link></li>
+                <li><Link className={style.linkItems} to='/flowers'>Flowers</Link></li>
+                <li>
+                    <ScrollIntoView selector='#about'>
+                        <Link className={style.linkItems} to='/about'>About</Link>
+                    </ScrollIntoView >
+                </li>
+                <li>
+                    <ScrollIntoView selector='#products'>
+                        <Link className={style.linkItems} to='/products'>Products</Link>
+                    </ScrollIntoView>
+                </li>
+                <li>
+                    <ScrollIntoView selector='#contacts'>
+                        <Link className={style.linkItems} to='/contacts'>Contacts</Link>
+                    </ScrollIntoView>
+                </li>
             </ul>
         </nav>
     )
